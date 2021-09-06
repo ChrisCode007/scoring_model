@@ -1,0 +1,40 @@
+<html>
+<body>
+    <h3>Credit customer Classification</h3>
+<div>
+  <form action="/predict" method="POST">
+    <label for="income_total">INCOME TOTAL</label>
+    <input type="number" id="income_total" name="income_total">
+    <br>
+    <label for="DAYS_LAST_PHONE_CHANGE">DAYS LAST PHONE CHANGE</label>
+    <input type="number" step="0.000001" id="DAYS_LAST_PHONE_CHANGE" name="DAYS_LAST_PHONE_CHANGE">
+    <br>
+    <label for="DAYS_EMPLOYED">DAYS EMPLOYED</label>
+    <input type="number"  step="0.000001" id="DAYS_EMPLOYED" name="DAYS_EMPLOYED">
+    <br>
+    <label for="DAYS_REGISTRATION">DAYS REGISTRATION</label>
+    <input type="number"  step="0.000001" id="DAYS_REGISTRATION" name="DAYS_REGISTRATION">
+    <br>
+    <label for="EXT_SOURCE_1">EXT SOURCE 1</label>
+    <input type="number" step="0.0000001" id="EXT_SOURCE_1" name="EXT_SOURCE_1">
+    <br>
+    <label for="EXT_SOURCE_2">EXT SOURCE 2</label>
+    <input type="number" step="0.0000001" id="EXT_SOURCE_2" name="EXT_SOURCE_2">
+    <br>
+    <label for="EXT_SOURCE_3">EXT SOURCE 3</label>
+    <input type="number" step="0.0000001" id="EXT_SOURCE_3" name="EXT_SOURCE_3">
+    <br>
+    <label for="OWN_CAR_AGE">OWN CAR AGE</label>
+    <input type="number" id="OWN_CAR_AGE" name="OWN_CAR_AGE">
+    <br>
+    <label for="AMT_CREDIT">CREDIT</label>
+    <input type="number" step = "0.5" id="AMT_CREDIT" name="AMT_CREDIT">
+    <br>
+    <label for="AMT_ANNUITY">ANNUITY</label>
+    <input type="number" id="AMT_ANNUITY" name="AMT_ANNUITY">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
